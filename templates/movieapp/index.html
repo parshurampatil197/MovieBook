@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/movies.css" %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <div class="container" align='center'>
+       <div class="jumbotron">
+         <h1>MovieBook</h1>
+         <p>upto date movies information</p><hr>
+         <a class="btn btn-primary btn-lg" href="/addmovie" role="button">Add Movie</a> &nbsp;&nbsp;&nbsp;&nbsp;
+         <a class="btn btn-primary btn-lg" href="/listmovies" role="button">List Movies</a>
+       </div>
+     </div>
+  </body>
+</html>
